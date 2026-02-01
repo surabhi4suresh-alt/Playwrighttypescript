@@ -1,0 +1,27 @@
+{
+  "name": "playwrighttypescript",
+  "version": "1.0.0",
+  "description": "This is automation Project",
+  "keywords": [
+    "pw",
+    "js",
+    "ts"
+  ],
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "cucumber-js test"
+  },
+  "author": "suresh",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.2.0",
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.6.1",
+    "cucumber-html-reporter": "^7.2.0",
+      "dotenv": "^17.2.3",
+    "playwright": "^1.55.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

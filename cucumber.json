@@ -1,0 +1,27 @@
+{
+    "default": {
+        "tags":"@test",
+        "dryRun": false,
+        "formatOptions": {
+            "snippetInterface": "async-await"
+        },
+        "paths": [
+            "PlaywrightAutomation/FeaturesFiles/**/*.feature"            
+        ],
+        "require": [
+            "PlaywrightAutomation/StepFiles/**/*.ts",
+            "PlaywrightAutomation/StepFiles/**/*.js"
+        ],
+        "requireModule": [
+            "ts-node/register"
+        ],
+        "format": [              
+            "progress-bar",
+            "html:test-result/cucumber-report.html",
+            "json:test-result/cucumber-report.json",
+            "rerun:@rerun.txt"
+        ],
+        "parallel":0,
+        "rerun":0        
+   }
+}
