@@ -1,0 +1,56 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "webtable-handle;handling-the-webtable-data-statically",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Handling the webtable data statically",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "i launch the browser",
+            "match": {
+              "location": "PlaywrightAutomation\\StepFiles\\FirstClassSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 727168799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "i launch the test automation practice applictaion",
+            "match": {
+              "location": "PlaywrightAutomation\\StepFiles\\FirstClassSteps.ts:106"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5019473300,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout.<anonymous> (C:\\Playwrighttypescript\\node_modules\\@cucumber\\cucumber\\src\\time.ts:52:14)\n    at listOnTimeout (node:internal/timers:588:17)\n    at processTimers (node:internal/timers:523:7)"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "webtable-handle",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "WebTable Handle",
+    "tags": [],
+    "uri": "PlaywrightAutomation\\FeaturesFiles\\WebTable.feature"
+  }
+]
